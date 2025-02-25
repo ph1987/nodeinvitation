@@ -10,3 +10,13 @@
 ---> extension: rest client
 npm i @fastify/swagger @fastify/swagger-ui
 npm i @biomejs/biome -D
+
+---------------------- 2 --------------------------------
+
+docker compose up -d
+npm i ioredis
+npm i postgres
+npm i drizzle-orm
+npm i drizzle-kit -D
+npx drizzle-kit generate
+npx drizzle-kit migrate
