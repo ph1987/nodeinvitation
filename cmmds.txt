@@ -20,3 +20,9 @@ npm i drizzle-orm
 npm i drizzle-kit -D
 npx drizzle-kit generate
 npx drizzle-kit migrate
+
+---------------------- 2 --------------------------------
+
+postgres 	- neon
+redis 		- upstash
+node			-	rocketseat deploy node (render)
